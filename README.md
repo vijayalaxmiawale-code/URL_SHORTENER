@@ -248,7 +248,7 @@ POST /api/urls/shorten
 - Open a Pull Request
 
 
-##  Author
+## Author
 
-**Shreya Shendkar**  
-[GitHub](https://github.com/ShreyaShendkar/) 
+**Vijayalaxmi Awale**  
+[GitHub](https://github.com/vijayalaxmiawale-code)
