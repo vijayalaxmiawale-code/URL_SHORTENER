@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap');
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --font-display: "Space Grotesk", sans-serif;
+  --color-ink: #172033;
+  --color-surface: #f4f7fb;
+  --color-brand: #2563eb;
+  --color-brand-dark: #1d4ed8;
+  --color-brand-light: #dbeafe;
+}
+
+@utility font-700 {
+  font-weight: 700;
+}
+
+@utility font-600 {
+  font-weight: 600;
+}
+
+body {
+  @apply bg-surface text-ink antialiased;
+  font-family: 'Inter', sans-serif;
+}
+
+button,
+a {
+  @apply transition-colors;
+}
